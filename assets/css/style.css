@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
+:root {
+  --main-color: #1abc9c;
+  --secondary-color: #16a085;
+  --text-colors: #0e6856;
+  --btn-colors: #0f4b3f;
+}
+
+/* navbar */
+/* navbar */
+.navbar {
+  background: var(--main-color) !important;
+}
+.navbar .navbar-brand {
+  color: var(--text-colors);
+  font-weight: bold;
+}
+.navbar .navbar-nav a {
+  color: var(--text-color);
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.navbar .navbar-nav a:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+/* hero */
+/* hero */
+#hero {
+  background: var(--main-color);
+}
+#hero .content h2 {
+  color: var(--text-colors);
+  font-weight: bold;
+}
+#hero .content p {
+  font-size: 0.9rem;
+  margin: 1.9rem 0;
+}
+#hero .content .img-cont {
+  background: var(--btn-colors);
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+/* mento */
+/* mento */
+#mento {
+  background: var(--btn-colors);
+}
+#mento .intro h3 {
+  color: var(--main-color);
+}
+#mento .intro p {
+  color: #fff;
+  margin-bottom: 4.9rem;
+}
+#mento .card {
+  background: var(--secondary-color);
+  color: #fff;
+  transform: scale(.9);
+}
+#mento .card i{
+  font-size: 3rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background: var(--btn-colors);
+}
+#mento .card h4{
+  margin-top: 1rem;
+}
+#mento .card p{
+  text-align: justify;
+}
+#mento .card .btn{
+  background: var(--btn-colors);
+  color: #fff;
+}
+#mento .card:hover{
+    cursor: pointer;
+    background: var(--text-color);
+    box-shadow: .12rem .12rem .2rem black;
+    transform: scale(1);
+    transition: all .5s ease-in-out;
+}
+
+#port{
+    background: var(--main-color);
+}
